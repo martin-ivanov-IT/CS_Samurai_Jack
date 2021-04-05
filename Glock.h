@@ -4,4 +4,4 @@
 
 typedef Pistol Glock;
 
-bool glockFire(Player enemy);
+void initGlock(Glock* glock, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo);

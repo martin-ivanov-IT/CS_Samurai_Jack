@@ -1,16 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
-typedef struct {
-  int a;
-} P;
-typedef struct {
-  int P[2];
-} BattleField;
+#include "BattleField.h"
 
 int main() {
   BattleField battleField;
-  if (&battleField) {};
-
-
+  createPlayers(&battleField);
+  buyPistols(&battleField);
+  startBattle(&battleField);
+ 
   return EXIT_SUCCESS;
 }

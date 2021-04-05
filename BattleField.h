@@ -2,6 +2,7 @@
 #define BATTLEFIELD_H_
 
 #include "Player.h"
+#include "Pistol.h"
 
 typedef struct {
   Player players[PLAYERS_COUNT];
@@ -12,5 +13,7 @@ void createPlayers(BattleField* bf);
 void buyPistols(BattleField* bf);
 
 void startBattle(BattleField* bf);
+
+void printWinner(Player* player);
 
 #endif /* BATTLEFIELD_H_ */

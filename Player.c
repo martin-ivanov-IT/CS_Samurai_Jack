@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void initPlayerVitalData(PlayerVitalData* playerData, int health, int armor){
+static initPlayerVitalData(PlayerVitalData* playerData, int health, int armor){
     playerData->health = health;
     playerData->armor = armor;
 }
@@ -34,4 +34,33 @@ bool hasPlayerArmor(Player* player){
     else{
         return false;
     }
+}
+
+bool hasPlayerAmmo(Player* player){
+    if(player->pistol.remainingAmmo<=0){
+        return false;
+    }
+    return true;
+}
+
+void playerReloadGun(Player* player){
+    if(player->pistol.remainingAmmo <=0 ){
+        printf("No ammo left\n");
+        return;
+    }
+    int reloadValue = player->pistol.clipSize - player->pistol.remainingAmmo;
+    if(player->pistol.remainingAmmo > reloadValue){
+        player->pistol.currClipBullets = player->pistol.clipSize;
+    }
+    else{
+        player->pistol.currClipBullets += player->pistol.remainingAmmo;
+    }
+    peinf("reloading...");
+}
+
+bool isPlayerAlive(Player* player){
+    if(player->playerData.health > 0){
+        return true;
+    }
+    return false;
 }

@@ -8,6 +8,7 @@ static bool fire(Player* enemy, DesertEagle* desertEagle){
     hurtHealth(enemy, desertEagle);
     hurtArmor(enemy, desertEagle);
     printPlayerCondition(enemy);
+
     if(enemy->playerData.health <= 0){
         return false;
     }
@@ -22,10 +23,10 @@ static void hurtArmor(Player* enemy, DesertEagle* desertEagle){
 static void hurtHealth (Player* enemy, DesertEagle* desertEagle){
     if(hasPlayerArmor(enemy)){
 
-        enemy->playerData.health -= (double)desertEagle->damagePerRound*0.75;
+        enemy->playerData.health -= desertEagle->damagePerRound*0.75;
     }
 
     else{
-        enemy->playerData.health -= (double)desertEagle->damagePerRound*0.25;
+        enemy->playerData.health -= desertEagle->damagePerRound*0.25;
     }
 }

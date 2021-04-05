@@ -17,5 +17,8 @@ void playerTakeGun(Player* player, Pistol* pistol);
 Player* takePlayerById(Player* players, int playerId);
 void printPlayerCondition(Player* player);
 bool hasPlayerArmor(Player* player);
+bool hasPlayerAmmo(Player* player);
+void playerReloadGun(Player* player);
+bool isPlayerAlive(Player* player);
 
 #endif /* PLAYER_H_ */
