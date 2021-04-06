@@ -79,6 +79,7 @@ CMakeFiles/cs.dir/src/Glock.c.obj
  C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/limits.h
  C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h
  C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/malloc.h
+ H:/CS_Project/include/Player.h
 
 CMakeFiles/cs.dir/src/Pistol.c.obj
  H:/CS_Project/src/Pistol.c

@@ -21,4 +21,5 @@ CMakeFiles/cs.dir/src/Glock.c.obj: H:\CS_Project\src\Glock.c \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/syslimits.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/limits.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
- C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/malloc.h
+ C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/malloc.h \
+ H:/CS_Project/include/Player.h

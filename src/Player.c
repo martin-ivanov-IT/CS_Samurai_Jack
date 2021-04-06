@@ -25,12 +25,12 @@ Player* takePlayerById(Player* players, int playerId){
     return NULL;
 }
 
-void printPlayerCondition(Player* player){
-    printf("Enemy left with: %d health and %d armor \n",player->playerData.health, player->playerData.armor);
+void printPlayerCondition(PlayerVitalData* player){
+    printf("Enemy left with: %d health and %d armor \n",player->health, player->armor);
 }
 
-bool hasPlayerArmor(Player* player){
-    if(player->playerData.armor > 0){
+bool hasPlayerArmor(PlayerVitalData* player){
+    if(player->armor > 0){
         return true;
     }
     else{
@@ -60,8 +60,8 @@ void playerReloadGun(Player* player){
     printf("reloading...\n");
 }
 
-bool isPlayerAlive(Player* player){
-    if(player->playerData.health > 0){
+bool isPlayerAlive(PlayerVitalData* player){
+    if(player->health > 0){
         return true;
     }
     return false;

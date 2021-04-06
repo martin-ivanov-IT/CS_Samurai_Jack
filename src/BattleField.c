@@ -33,10 +33,13 @@ void buyPistols(BattleField *bf) {
     scanf("%d %d %d %d", &pistolId, &pistolDamagePerRound, &pistolClipSize,
         &pistolRemainingAmmo);
     Pistol pistol;
-    initPistol(&pistol, pistolId,pistolDamagePerRound, pistolClipSize, pistolRemainingAmmo);
-    //Player* player = &bf->players[i];
+    if(pistolId == GLOCK){
+      initGlock(&pistol, pistolId,pistolDamagePerRound, pistolClipSize, pistolRemainingAmmo);
+    }
+    else if(pistolId == DESERT_EAGLE){
+      initDesertEagle(&pistol, pistolId,pistolDamagePerRound, pistolClipSize, pistolRemainingAmmo);
+    }
     bf->players[i].pistol = pistol;
-    //playerTakeGun(player, &pistol);
   }
 }
 
@@ -50,20 +53,10 @@ void startBattle(BattleField *bf) {
       reloadPistol(&atacker->pistol);
     }
     else{
-      atackEnemy(atacker, enemy);
-      if(atacker->pistol.pistolType == GLOCK){
-        if(!fireGlock(enemy, &atacker->pistol)){
+      if(!atacker->pistol.vptr->fire(&atacker->pistol, &enemy->playerData)){
           printWinner(atacker);
           break;
-        }
       }
-      else if(atacker->pistol.pistolType == DESERT_EAGLE){
-        if(!fireDesertEagle(enemy, &atacker->pistol)){
-          printWinner(atacker);
-          break;
-        }
-      }
-      //printf("current gun ammo %d\n",atacker->pistol.currClipBullets);
     }
     printf("\n");
     swapPositions(atacker, enemy);
