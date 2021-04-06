@@ -18,10 +18,6 @@ struct PistolVtable{
   bool (*fire)(Pistol* me, PlayerVitalData* playerData);
 };
 
-static inline bool Pistol_fire_vcall(Pistol* me, PlayerVitalData* playerData){
-  return (*me->vptr->fire)(me, playerData);
-}
-
 void initPistol(Pistol* pistol, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo);
 bool isPistolEmpty(Pistol* pistol);
 void reloadPistol(Pistol* pistol);
