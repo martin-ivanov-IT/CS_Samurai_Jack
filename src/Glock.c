@@ -19,6 +19,7 @@ static bool Glock_fire(Pistol* glock, PlayerVitalData* enemy){
         if(glock->currClipBullets==0){
             reloadPistol(glock);
             break;
+            
         }
 
         hurtHealth(enemy, glock);
