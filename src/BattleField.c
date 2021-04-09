@@ -39,7 +39,8 @@ void buyPistols(BattleField *bf) {
     else if(pistolId == DESERT_EAGLE){
       initDesertEagle(&pistol, pistolId,pistolDamagePerRound, pistolClipSize, pistolRemainingAmmo);
     }
-    bf->players[i].pistol = pistol;
+    bf->players[i].takeGun(&bf->players[i], &pistol);
+    
   }
 }
 
@@ -49,11 +50,11 @@ void startBattle(BattleField *bf) {
   Player* enemy = &bf->players[1];
   while(true){
     printf("PlayerID %d turn:\n",atacker->playerId);
-    if(isPistolEmpty(&atacker->pistol)){
-      reloadPistol(&atacker->pistol);
+    if(atacker->pistol.isPistolEmpty(&atacker->pistol)){
+      atacker->pistol.reloadPistol(&atacker->pistol);
     }
     else{
-      if(!atacker->pistol.vptr->fire(&atacker->pistol, &enemy->playerData)){
+      if(!atacker->pistol.fire(&atacker->pistol, &enemy->playerData)){
           printWinner(atacker);
           break;
       }

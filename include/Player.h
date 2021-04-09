@@ -7,19 +7,18 @@
 #include <stdio.h>
 
 
-typedef struct {
+typedef struct Player {
   PlayerVitalData playerData;
   Pistol pistol;
   int playerId;
+  void (* takeGun)(struct Player* player, Pistol* pistol);
 } Player;
 
+struct PlayerVtable{
+  void (* takeGun)(Player* player, Pistol* pistol);
+};
+
 void initPlayer(Player* player, int health, int armor, int playerId);
-void playerTakeGun(Player* player, Pistol* pistol);
-Player* takePlayerById(Player* players, int playerId);
-void printPlayerCondition(PlayerVitalData* player);
-bool hasPlayerArmor(PlayerVitalData* player);
-bool hasPlayerAmmo(Player* player);
-void playerReloadGun(Player* player);
-bool isPlayerAlive(PlayerVitalData* player);
+
 
 #endif /* PLAYER_H_ */

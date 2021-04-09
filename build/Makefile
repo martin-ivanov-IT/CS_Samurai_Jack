@@ -56,10 +56,10 @@ RM = C:\programs\cmake-3.20.0-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\CS_Project
+CMAKE_SOURCE_DIR = H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\CS_Project\build
+CMAKE_BINARY_DIR = H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\CS_Project\build\CMakeFiles H:\CS_Project\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\CS_Project\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,6 +1,8 @@
-CMakeFiles/cs.dir/src/Glock.c.obj: H:\CS_Project\src\Glock.c \
- H:/CS_Project/include/Glock.h H:/CS_Project/include/Pistol.h \
- H:/CS_Project/include/Defines.h \
+CMakeFiles/cs.dir/src/Glock.c.obj: \
+ H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Glock.c \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Glock.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Pistol.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Defines.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/stdio.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/crtdefs.h \
@@ -15,11 +17,11 @@ CMakeFiles/cs.dir/src/Glock.c.obj: H:\CS_Project\src\Glock.c \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/swprintf.inl \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h \
- H:/CS_Project/include/Player.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Player.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/stdlib.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/limits.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/syslimits.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/limits.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/malloc.h \
- H:/CS_Project/include/Player.h
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Player.h

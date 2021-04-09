@@ -1,7 +1,10 @@
-CMakeFiles/cs.dir/src/Player.c.obj: H:\CS_Project\src\Player.c \
- H:/CS_Project/include/Defines.h H:/CS_Project/include/Player.h \
+CMakeFiles/cs.dir/src/Player.c.obj: \
+ H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Player.c \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Defines.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h \
- H:/CS_Project/include/Defines.h H:/CS_Project/include/Pistol.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Player.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Defines.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Pistol.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/stdio.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/crtdefs.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/_mingw.h \

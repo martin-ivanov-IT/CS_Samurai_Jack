@@ -80,9 +80,9 @@ CMakeFiles/cs.dir/src/Glock.c.obj: ../src/Glock.c \
 
 CMakeFiles/cs.dir/src/Pistol.c.obj: ../src/Pistol.c \
   ../include/Defines.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h \
   ../include/Pistol.h \
   ../include/Defines.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stdio.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/crtdefs.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw.h \
@@ -99,8 +99,8 @@ CMakeFiles/cs.dir/src/Pistol.c.obj: ../src/Pistol.c \
 
 CMakeFiles/cs.dir/src/Player.c.obj: ../src/Player.c \
   ../include/Defines.h \
-  ../include/Player.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h \
+  ../include/Player.h \
   ../include/Defines.h \
   ../include/Pistol.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stdio.h \

@@ -52,10 +52,10 @@ RM = C:\programs\cmake-3.20.0-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\CS_Project
+CMAKE_SOURCE_DIR = H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\CS_Project\build
+CMAKE_BINARY_DIR = H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cs.dir/depend.make
@@ -72,91 +72,91 @@ CMakeFiles/cs.dir/src/main.c.obj: CMakeFiles/cs.dir/flags.make
 CMakeFiles/cs.dir/src/main.c.obj: CMakeFiles/cs.dir/includes_C.rsp
 CMakeFiles/cs.dir/src/main.c.obj: ../src/main.c
 CMakeFiles/cs.dir/src/main.c.obj: CMakeFiles/cs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\CS_Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cs.dir/src/main.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/main.c.obj -MF CMakeFiles\cs.dir\src\main.c.obj.d -o CMakeFiles\cs.dir\src\main.c.obj -c H:\CS_Project\src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cs.dir/src/main.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/main.c.obj -MF CMakeFiles\cs.dir\src\main.c.obj.d -o CMakeFiles\cs.dir\src\main.c.obj -c H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\main.c
 
 CMakeFiles/cs.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cs.dir/src/main.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\CS_Project\src\main.c > CMakeFiles\cs.dir\src\main.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\main.c > CMakeFiles\cs.dir\src\main.c.i
 
 CMakeFiles/cs.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cs.dir/src/main.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\CS_Project\src\main.c -o CMakeFiles\cs.dir\src\main.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\main.c -o CMakeFiles\cs.dir\src\main.c.s
 
 CMakeFiles/cs.dir/src/BattleField.c.obj: CMakeFiles/cs.dir/flags.make
 CMakeFiles/cs.dir/src/BattleField.c.obj: CMakeFiles/cs.dir/includes_C.rsp
 CMakeFiles/cs.dir/src/BattleField.c.obj: ../src/BattleField.c
 CMakeFiles/cs.dir/src/BattleField.c.obj: CMakeFiles/cs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\CS_Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cs.dir/src/BattleField.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/BattleField.c.obj -MF CMakeFiles\cs.dir\src\BattleField.c.obj.d -o CMakeFiles\cs.dir\src\BattleField.c.obj -c H:\CS_Project\src\BattleField.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cs.dir/src/BattleField.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/BattleField.c.obj -MF CMakeFiles\cs.dir\src\BattleField.c.obj.d -o CMakeFiles\cs.dir\src\BattleField.c.obj -c H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\BattleField.c
 
 CMakeFiles/cs.dir/src/BattleField.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cs.dir/src/BattleField.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\CS_Project\src\BattleField.c > CMakeFiles\cs.dir\src\BattleField.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\BattleField.c > CMakeFiles\cs.dir\src\BattleField.c.i
 
 CMakeFiles/cs.dir/src/BattleField.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cs.dir/src/BattleField.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\CS_Project\src\BattleField.c -o CMakeFiles\cs.dir\src\BattleField.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\BattleField.c -o CMakeFiles\cs.dir\src\BattleField.c.s
 
 CMakeFiles/cs.dir/src/Glock.c.obj: CMakeFiles/cs.dir/flags.make
 CMakeFiles/cs.dir/src/Glock.c.obj: CMakeFiles/cs.dir/includes_C.rsp
 CMakeFiles/cs.dir/src/Glock.c.obj: ../src/Glock.c
 CMakeFiles/cs.dir/src/Glock.c.obj: CMakeFiles/cs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\CS_Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cs.dir/src/Glock.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/Glock.c.obj -MF CMakeFiles\cs.dir\src\Glock.c.obj.d -o CMakeFiles\cs.dir\src\Glock.c.obj -c H:\CS_Project\src\Glock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cs.dir/src/Glock.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/Glock.c.obj -MF CMakeFiles\cs.dir\src\Glock.c.obj.d -o CMakeFiles\cs.dir\src\Glock.c.obj -c H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Glock.c
 
 CMakeFiles/cs.dir/src/Glock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cs.dir/src/Glock.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\CS_Project\src\Glock.c > CMakeFiles\cs.dir\src\Glock.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Glock.c > CMakeFiles\cs.dir\src\Glock.c.i
 
 CMakeFiles/cs.dir/src/Glock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cs.dir/src/Glock.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\CS_Project\src\Glock.c -o CMakeFiles\cs.dir\src\Glock.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Glock.c -o CMakeFiles\cs.dir\src\Glock.c.s
 
 CMakeFiles/cs.dir/src/Pistol.c.obj: CMakeFiles/cs.dir/flags.make
 CMakeFiles/cs.dir/src/Pistol.c.obj: CMakeFiles/cs.dir/includes_C.rsp
 CMakeFiles/cs.dir/src/Pistol.c.obj: ../src/Pistol.c
 CMakeFiles/cs.dir/src/Pistol.c.obj: CMakeFiles/cs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\CS_Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cs.dir/src/Pistol.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/Pistol.c.obj -MF CMakeFiles\cs.dir\src\Pistol.c.obj.d -o CMakeFiles\cs.dir\src\Pistol.c.obj -c H:\CS_Project\src\Pistol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cs.dir/src/Pistol.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/Pistol.c.obj -MF CMakeFiles\cs.dir\src\Pistol.c.obj.d -o CMakeFiles\cs.dir\src\Pistol.c.obj -c H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Pistol.c
 
 CMakeFiles/cs.dir/src/Pistol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cs.dir/src/Pistol.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\CS_Project\src\Pistol.c > CMakeFiles\cs.dir\src\Pistol.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Pistol.c > CMakeFiles\cs.dir\src\Pistol.c.i
 
 CMakeFiles/cs.dir/src/Pistol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cs.dir/src/Pistol.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\CS_Project\src\Pistol.c -o CMakeFiles\cs.dir\src\Pistol.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Pistol.c -o CMakeFiles\cs.dir\src\Pistol.c.s
 
 CMakeFiles/cs.dir/src/DesertEagle.c.obj: CMakeFiles/cs.dir/flags.make
 CMakeFiles/cs.dir/src/DesertEagle.c.obj: CMakeFiles/cs.dir/includes_C.rsp
 CMakeFiles/cs.dir/src/DesertEagle.c.obj: ../src/DesertEagle.c
 CMakeFiles/cs.dir/src/DesertEagle.c.obj: CMakeFiles/cs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\CS_Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cs.dir/src/DesertEagle.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/DesertEagle.c.obj -MF CMakeFiles\cs.dir\src\DesertEagle.c.obj.d -o CMakeFiles\cs.dir\src\DesertEagle.c.obj -c H:\CS_Project\src\DesertEagle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cs.dir/src/DesertEagle.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/DesertEagle.c.obj -MF CMakeFiles\cs.dir\src\DesertEagle.c.obj.d -o CMakeFiles\cs.dir\src\DesertEagle.c.obj -c H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\DesertEagle.c
 
 CMakeFiles/cs.dir/src/DesertEagle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cs.dir/src/DesertEagle.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\CS_Project\src\DesertEagle.c > CMakeFiles\cs.dir\src\DesertEagle.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\DesertEagle.c > CMakeFiles\cs.dir\src\DesertEagle.c.i
 
 CMakeFiles/cs.dir/src/DesertEagle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cs.dir/src/DesertEagle.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\CS_Project\src\DesertEagle.c -o CMakeFiles\cs.dir\src\DesertEagle.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\DesertEagle.c -o CMakeFiles\cs.dir\src\DesertEagle.c.s
 
 CMakeFiles/cs.dir/src/Player.c.obj: CMakeFiles/cs.dir/flags.make
 CMakeFiles/cs.dir/src/Player.c.obj: CMakeFiles/cs.dir/includes_C.rsp
 CMakeFiles/cs.dir/src/Player.c.obj: ../src/Player.c
 CMakeFiles/cs.dir/src/Player.c.obj: CMakeFiles/cs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\CS_Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cs.dir/src/Player.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/Player.c.obj -MF CMakeFiles\cs.dir\src\Player.c.obj.d -o CMakeFiles\cs.dir\src\Player.c.obj -c H:\CS_Project\src\Player.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cs.dir/src/Player.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cs.dir/src/Player.c.obj -MF CMakeFiles\cs.dir\src\Player.c.obj.d -o CMakeFiles\cs.dir\src\Player.c.obj -c H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Player.c
 
 CMakeFiles/cs.dir/src/Player.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cs.dir/src/Player.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\CS_Project\src\Player.c > CMakeFiles\cs.dir\src\Player.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Player.c > CMakeFiles\cs.dir\src\Player.c.i
 
 CMakeFiles/cs.dir/src/Player.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cs.dir/src/Player.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\CS_Project\src\Player.c -o CMakeFiles\cs.dir\src\Player.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\Player.c -o CMakeFiles\cs.dir\src\Player.c.s
 
 # Object files for target cs
 cs_OBJECTS = \
@@ -180,7 +180,7 @@ cs.exe: CMakeFiles/cs.dir/build.make
 cs.exe: CMakeFiles/cs.dir/linklibs.rsp
 cs.exe: CMakeFiles/cs.dir/objects1.rsp
 cs.exe: CMakeFiles/cs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=H:\CS_Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable cs.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable cs.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cs.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +192,6 @@ CMakeFiles/cs.dir/clean:
 .PHONY : CMakeFiles/cs.dir/clean
 
 CMakeFiles/cs.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" H:\CS_Project H:\CS_Project H:\CS_Project\build H:\CS_Project\build H:\CS_Project\build\CMakeFiles\cs.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\build\CMakeFiles\cs.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cs.dir/depend
 

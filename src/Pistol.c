@@ -1,22 +1,25 @@
 #include "Defines.h"
 #include "Pistol.h"
-bool isPistolEmpty(Pistol* pistol);
+static bool isPistolEmpty(Pistol* pistol);
+static void reloadPistol(Pistol* pistol);
 void initPistol(Pistol* pistol, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo){
     pistol->pistolType = pistolType;
     pistol->damagePerRound = damagePerRound;
     pistol->clipSize = clipSize;
     pistol->remainingAmmo = inputAmmo;
     pistol->currClipBullets = clipSize;
+    pistol->isPistolEmpty = isPistolEmpty;
+    pistol->reloadPistol = reloadPistol;
 }
 
-bool isPistolEmpty(Pistol* pistol){
+static bool isPistolEmpty(Pistol* pistol){
     if(pistol->currClipBullets <= 0){
         return true;
     }
     return false;
 }
 
-void reloadPistol(Pistol* pistol){
+static void reloadPistol(Pistol* pistol){
     if(pistol->remainingAmmo <=0 ){
         printf("No ammo left\n");
         return;

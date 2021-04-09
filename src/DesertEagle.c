@@ -5,26 +5,22 @@ static void hurtHealth (PlayerVitalData* enemy, Pistol* glock);
 
 void initDesertEagle(DesertEagle* desertEagle, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo){
     initPistol(desertEagle, pistolType, damagePerRound, clipSize, inputAmmo);
-    static const struct PistolVtable vtable = {
-        &DesertEagle_Fire
-    };
-    desertEagle->vptr = &vtable;
+    desertEagle->fire = &DesertEagle_Fire;
 }
 
 static bool DesertEagle_Fire( DesertEagle* desertEagle, PlayerVitalData* enemy){
     hurtHealth(enemy, desertEagle);
     hurtArmor(enemy, desertEagle);
     desertEagle->currClipBullets--;
-    printPlayerCondition(enemy);
-
-    if(!isPlayerAlive(enemy)){
+    enemy->printCondition(enemy);
+    if(!enemy->isAlive(enemy)){
         return false;
     }
     return true;
 }
 
 static void hurtHealth (PlayerVitalData* enemy, DesertEagle* desertEagle){
-    if(hasPlayerArmor(enemy)){
+    if(enemy->hasArmor(enemy)){
 
         enemy->health -= desertEagle->damagePerRound*DESERTEAGLE_HEALTH_DAMAGE_RATE;
     }
@@ -35,7 +31,7 @@ static void hurtHealth (PlayerVitalData* enemy, DesertEagle* desertEagle){
 }
 
 static void hurtArmor(PlayerVitalData* enemy, DesertEagle* desertEagle){
-    if(hasPlayerArmor(enemy)){
+    if(enemy->hasArmor(enemy)){
         enemy->armor -= desertEagle->damagePerRound*DESERTEAGLE_ARMOR_DAMAGE_RATE;
     }
 }

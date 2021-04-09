@@ -7,17 +7,14 @@ static void hurtHealth (PlayerVitalData* enemy, Glock* glock);
 
 void initGlock(Glock* glock, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo){
     initPistol(glock,pistolType, damagePerRound,clipSize, inputAmmo);
-    static const struct PistolVtable vtable = {
-        &Glock_fire
-    };
-    glock->vptr = &vtable;
+    glock->fire = &Glock_fire;
 }
 
 static bool Glock_fire(Pistol* glock, PlayerVitalData* enemy){
     for (int i = 0; i < ROUNDS_PER_FIRE; i++)
     {
         if(glock->currClipBullets==0){
-            reloadPistol(glock);
+            glock->reloadPistol(glock);
             break;
             
         }
@@ -25,9 +22,10 @@ static bool Glock_fire(Pistol* glock, PlayerVitalData* enemy){
         hurtHealth(enemy, glock);
         hurtArmor(enemy, glock);
         glock->currClipBullets--;
-        printPlayerCondition(enemy);
+        
+        enemy->printCondition(enemy);
 
-        if(!isPlayerAlive(enemy)){
+        if(!enemy->isAlive(enemy)){
             return false;
         }
 
@@ -36,7 +34,7 @@ static bool Glock_fire(Pistol* glock, PlayerVitalData* enemy){
 }
 
 static void hurtArmor(PlayerVitalData* enemy, Glock* glock){
-    if(hasPlayerArmor(enemy)){
+    if(enemy->hasArmor(enemy)){
         enemy->armor -= glock->damagePerRound * GLOCK_ARMOR_DAMAGE_RATE;
         if(enemy->armor < 0){
             enemy->health += enemy->armor;
@@ -46,7 +44,7 @@ static void hurtArmor(PlayerVitalData* enemy, Glock* glock){
 }
 
 static void hurtHealth (PlayerVitalData* enemy, Glock* glock){
-    if(hasPlayerArmor(enemy)){
+    if(enemy->hasArmor(enemy)){
         enemy->health -= glock->damagePerRound * GLOCK_HEALTH_DAMAGE_RATE;
     }
 
