@@ -36,8 +36,12 @@ void buyPistols(BattleField *bf) {
 void startBattle(BattleField *bf) {
   Player* atacker = &bf->players[0];
   Player* enemy = &bf->players[1];
+  
+  //while loop while both players are still alive
   while(atacker->playerData.isAlive && enemy->playerData.isAlive){
     printf("PlayerID %d turn:\n",atacker->playerId);
+
+    //rerurns true if enemy palyer is killed by atacker pistol fire atack 
     if(atacker->pistol.fire(&atacker->pistol, &enemy->playerData)){
           printWinner(atacker);
           break;
@@ -45,6 +49,8 @@ void startBattle(BattleField *bf) {
     swapPositions(atacker, enemy);
   }
 }
+
+// swaps positions of atacker and enemy
 void swapPositions (Player *atacker, Player *enemy){
     Player temp = *atacker;
     *atacker = *enemy;

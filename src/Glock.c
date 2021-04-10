@@ -26,6 +26,7 @@ static bool Glock_fire(Pistol* glock, PlayerVitalData* enemy){
     return false;
 }
 
+//produce damage to health and armor of enemy player
 static void hurtEnemy(PlayerVitalData* enemy, Glock* glock){
     if(enemy->hasArmor(enemy)){
          enemy->health -= glock->damagePerRound * GLOCK_HEALTH_DAMAGE_RATE;
