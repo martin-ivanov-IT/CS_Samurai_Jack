@@ -1,15 +1,16 @@
 #include "DesertEagle.h"
 
-static bool DesertEagle_Fire(Pistol*  me, PlayerVitalData* playerVitalData);
-static void hurtArmor(PlayerVitalData* enemy, Pistol* glock);
-static void hurtHealth (PlayerVitalData* enemy, Pistol* glock);
+static bool DesertEagle_Fire(Pistol*const  me, PlayerVitalData*const playerVitalData);
+static void hurtArmor(PlayerVitalData*const enemy, Pistol const*const glock);
+static void hurtHealth (PlayerVitalData*const enemy, Pistol const*const glock);
 
-void initDesertEagle(DesertEagle* desertEagle, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo){
+void initDesertEagle(DesertEagle * const desertEagle, enum PistolType pistolType,
+                 int damagePerRound, int clipSize, int inputAmmo){
     initPistol(desertEagle, pistolType, damagePerRound, clipSize, inputAmmo);
     desertEagle->fire = &DesertEagle_Fire;
 }
 
-static bool DesertEagle_Fire( DesertEagle* desertEagle, PlayerVitalData* enemy){
+static bool DesertEagle_Fire( DesertEagle*const desertEagle, PlayerVitalData*const enemy){
     hurtHealth(enemy, desertEagle);
     hurtArmor(enemy, desertEagle);
     desertEagle->currClipBullets--;
@@ -20,7 +21,7 @@ static bool DesertEagle_Fire( DesertEagle* desertEagle, PlayerVitalData* enemy){
     return true;
 }
 
-static void hurtHealth (PlayerVitalData* enemy, DesertEagle* desertEagle){
+static void hurtHealth (PlayerVitalData*const enemy, DesertEagle const*const desertEagle){
     if(enemy->hasArmor(enemy)){
 
         enemy->health -= desertEagle->damagePerRound*DESERTEAGLE_HEALTH_DAMAGE_RATE;
@@ -31,7 +32,7 @@ static void hurtHealth (PlayerVitalData* enemy, DesertEagle* desertEagle){
     }
 }
 
-static void hurtArmor(PlayerVitalData* enemy, DesertEagle* desertEagle){
+static void hurtArmor(PlayerVitalData*const enemy, DesertEagle const*const desertEagle){
     if(enemy->hasArmor(enemy)){
         enemy->armor -= desertEagle->damagePerRound*DESERTEAGLE_ARMOR_DAMAGE_RATE;
     }

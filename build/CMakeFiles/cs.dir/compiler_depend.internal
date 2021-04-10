@@ -23,14 +23,6 @@ CMakeFiles/cs.dir/src/BattleField.c.obj
  C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h
  H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/DesertEagle.h
  H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Glock.h
- C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stdlib.h
- C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/limits.h
- C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/syslimits.h
- C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/limits.h
- C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h
- C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/malloc.h
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Pistol.h
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Player.h
 
 CMakeFiles/cs.dir/src/DesertEagle.c.obj
  H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/src/DesertEagle.c
@@ -144,4 +136,6 @@ CMakeFiles/cs.dir/src/main.c.obj
  C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h
  H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Defines.h
  H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Pistol.h
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/DesertEagle.h
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Glock.h
 

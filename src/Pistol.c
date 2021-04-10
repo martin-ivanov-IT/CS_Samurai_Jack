@@ -1,7 +1,7 @@
 #include "Pistol.h"
 static bool isPistolEmpty(Pistol* pistol);
 static void reloadPistol(Pistol* pistol);
-void initPistol(Pistol* pistol, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo){
+void initPistol(Pistol* const pistol, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo){
     pistol->pistolType = pistolType;
     pistol->damagePerRound = damagePerRound;
     pistol->clipSize = clipSize;
