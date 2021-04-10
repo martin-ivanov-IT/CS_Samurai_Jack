@@ -1,15 +1,8 @@
 #include "BattleField.h"
-#include "DesertEagle.h"
-#include "Glock.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include "Pistol.h"
-#include "Player.h"
 
 void createPlayers(BattleField *bf) {
   if (bf) {} //silence ununsed variable warning. Remove me
-
   int playerHealth = 0;
   int playerArmor = 0;
 

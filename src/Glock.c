@@ -1,5 +1,4 @@
 #include "Glock.h"
-#include "Player.h"
 
 static bool Glock_fire(Pistol*  me, PlayerVitalData* playerVitalData);
 static void hurtArmor(PlayerVitalData* enemy, Glock* glock);

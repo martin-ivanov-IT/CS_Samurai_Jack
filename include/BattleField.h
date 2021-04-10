@@ -2,7 +2,9 @@
 #define BATTLEFIELD_H_
 
 #include "Player.h"
-#include "Pistol.h"
+#include "DesertEagle.h"
+#include "Glock.h"
+
 
 typedef struct {
   Player players[PLAYERS_COUNT];

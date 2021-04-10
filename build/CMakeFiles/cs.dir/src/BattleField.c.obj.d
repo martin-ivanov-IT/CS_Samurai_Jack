@@ -20,6 +20,8 @@ CMakeFiles/cs.dir/src/BattleField.c.obj: \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h \
  H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/DesertEagle.h \
  H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Glock.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/DesertEagle.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Glock.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/stdlib.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/limits.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/syslimits.h \

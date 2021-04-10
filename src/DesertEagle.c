@@ -1,4 +1,5 @@
 #include "DesertEagle.h"
+
 static bool DesertEagle_Fire(Pistol*  me, PlayerVitalData* playerVitalData);
 static void hurtArmor(PlayerVitalData* enemy, Pistol* glock);
 static void hurtHealth (PlayerVitalData* enemy, Pistol* glock);

@@ -23,4 +23,6 @@ CMakeFiles/cs.dir/src/main.c.obj: \
  H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Player.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h \
  H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Defines.h \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Pistol.h
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Pistol.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/DesertEagle.h \
+ H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Glock.h

@@ -3,7 +3,8 @@
 #include "BattleField.h"
 
 int main() {
-  BattleField battleField;
+  BattleField battleField ;
+ 
   createPlayers(&battleField);
   buyPistols(&battleField);
   startBattle(&battleField);

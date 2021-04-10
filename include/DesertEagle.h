@@ -1,6 +1,4 @@
 #include "Pistol.h"
-#include "Player.h"
-#include <stdbool.h>
 
 typedef Pistol DesertEagle;
 

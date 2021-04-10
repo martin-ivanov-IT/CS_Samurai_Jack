@@ -1,4 +1,3 @@
-#include "Defines.h"
 #include "Pistol.h"
 static bool isPistolEmpty(Pistol* pistol);
 static void reloadPistol(Pistol* pistol);
