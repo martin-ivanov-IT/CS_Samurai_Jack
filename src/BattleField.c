@@ -1,8 +1,6 @@
 #include "BattleField.h"
 
-
 void createPlayers(BattleField *bf) {
-  if (bf) {} //silence ununsed variable warning. Remove me
   int playerHealth = 0;
   int playerArmor = 0;
 
@@ -15,8 +13,6 @@ void createPlayers(BattleField *bf) {
 }
 
 void buyPistols(BattleField *bf) {
-  //if (bf) {} //silence ununsed variable warning. Remove me
-
   int pistolId = 0;
   int pistolDamagePerRound = 0;
   int pistolClipSize = 0;
@@ -38,10 +34,9 @@ void buyPistols(BattleField *bf) {
 }
 
 void startBattle(BattleField *bf) {
-  if (bf) {} //silence ununsed variable warning. Remove me
   Player* atacker = &bf->players[0];
   Player* enemy = &bf->players[1];
-  while(true){
+  while(atacker->playerData.isAlive && enemy->playerData.isAlive){
     printf("PlayerID %d turn:\n",atacker->playerId);
     if(atacker->pistol.fire(&atacker->pistol, &enemy->playerData)){
           printWinner(atacker);
