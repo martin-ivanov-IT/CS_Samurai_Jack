@@ -1,6 +1,6 @@
 #include "Pistol.h"
-static bool isPistolEmpty(Pistol* pistol);
-static void reloadPistol(Pistol* pistol);
+static bool isPistolEmpty(Pistol*const pistol);
+static void reloadPistol(Pistol*const pistol);
 void initPistol(Pistol* const pistol, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo){
     pistol->pistolType = pistolType;
     pistol->damagePerRound = damagePerRound;
@@ -11,14 +11,15 @@ void initPistol(Pistol* const pistol, enum PistolType pistolType, int damagePerR
     pistol->reloadPistol = reloadPistol;
 }
 
-static bool isPistolEmpty(Pistol* pistol){
+static bool isPistolEmpty(Pistol*const pistol){
     if(pistol->currClipBullets <= 0){
+        reloadPistol(pistol);
         return true;
     }
     return false;
 }
 
-static void reloadPistol(Pistol* pistol){
+static void reloadPistol(Pistol*const pistol){
     if(pistol->remainingAmmo <=0 ){
         printf("No ammo left\n");
         return;

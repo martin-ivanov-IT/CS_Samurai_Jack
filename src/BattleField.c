@@ -43,16 +43,10 @@ void startBattle(BattleField *bf) {
   Player* enemy = &bf->players[1];
   while(true){
     printf("PlayerID %d turn:\n",atacker->playerId);
-    if(atacker->pistol.isPistolEmpty(&atacker->pistol)){
-      atacker->pistol.reloadPistol(&atacker->pistol);
-    }
-    else{
-      if(!atacker->pistol.fire(&atacker->pistol, &enemy->playerData)){
+    if(atacker->pistol.fire(&atacker->pistol, &enemy->playerData)){
           printWinner(atacker);
           break;
-      }
     }
-    printf("\n");
     swapPositions(atacker, enemy);
   }
 }
