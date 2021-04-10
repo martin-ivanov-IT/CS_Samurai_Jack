@@ -12,7 +12,6 @@ typedef struct Pistol{
   int currClipBullets;
   int remainingAmmo;
   bool (*isPistolEmpty)(struct Pistol* pistol);
-  void (*reloadPistol)(struct Pistol* pistol);
   bool (*fire)(struct Pistol* me, PlayerVitalData* playerData);
  }Pistol;
 
