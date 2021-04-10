@@ -8,14 +8,11 @@ void initPistol(Pistol* const pistol, enum PistolType pistolType, int damagePerR
     pistol->remainingAmmo = inputAmmo;
     pistol->currClipBullets = clipSize;
     pistol->isPistolEmpty = isPistolEmpty;
+    pistol->reloadPistol = reloadPistol;
 }
 
 static bool isPistolEmpty(Pistol*const pistol){
-    if(pistol->currClipBullets <= 0){
-        reloadPistol(pistol);
-        return true;
-    }
-    return false;
+    return pistol->currClipBullets <= 0;
 }
 
 static void reloadPistol(Pistol*const pistol){

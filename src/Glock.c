@@ -11,6 +11,7 @@ void initGlock(Glock* const glock, enum PistolType pistolType, int damagePerRoun
 static bool Glock_fire(Pistol* glock, PlayerVitalData* enemy){
     for (int i = 0; i < ROUNDS_PER_FIRE; i++){
         if(glock->isPistolEmpty(glock)){
+            glock->reloadPistol(glock);
             printf("\n");
             return false;
         }

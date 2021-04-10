@@ -31,17 +31,9 @@ static void printPlayerCondition(PlayerVitalData* player){
 }
 
 static bool hasPlayerArmor(PlayerVitalData* player){
-    if(player->armor > 0){
-        return true;
-    }
-    else{
-        return false;
-    }
+    return player->armor > 0;
 }
 
 static bool isPlayerAlive(PlayerVitalData* player){
-    if(player->health > 0){
-        return true;
-    }
-    return false;
+    return player->health > 0;
 }

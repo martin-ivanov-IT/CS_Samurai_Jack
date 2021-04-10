@@ -12,6 +12,7 @@ void initDesertEagle(DesertEagle * const desertEagle, enum PistolType pistolType
 static bool DesertEagle_Fire( DesertEagle* desertEagle, PlayerVitalData* enemy){
     
     if(desertEagle->isPistolEmpty(desertEagle)){
+        desertEagle->reloadPistol(desertEagle);
         printf("\n");
         return false;
     }
