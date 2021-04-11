@@ -1,5 +1,9 @@
 #include "BattleField.h"
 
+static void swapPositions (Player *atacker, Player *enemy);
+static void printTurn(int playerId);
+static void printWinner(Player* player);
+
 void createPlayers(BattleField *bf) {
   int playerHealth = 0;
   int playerArmor = 0;
@@ -47,17 +51,17 @@ void startBattle(BattleField *bf) {
 
 
 // swaps positions of atacker and enemy
-void swapPositions (Player *atacker, Player *enemy){
+static void swapPositions (Player *atacker, Player *enemy){
     Player temp = *atacker;
     *atacker = *enemy;
     *enemy = temp;
 }
 
-void printTurn(int playerId){
+static void printTurn(int playerId){
   printf("PlayerID %d turn:\n",playerId);
 }
 
-void printWinner(Player* player){
+static void printWinner(Player* player){
   printf("Player with ID: %d wins!\n",player->playerId);
 }
 
