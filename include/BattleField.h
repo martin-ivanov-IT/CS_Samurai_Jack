@@ -17,6 +17,7 @@ void buyPistols(BattleField* bf);
 void startBattle(BattleField* bf);
 
 void printWinner(Player* player);
+void printTurn(int playerId);
 
 void swapPositions (Player *atacker, Player *enemy);
 
