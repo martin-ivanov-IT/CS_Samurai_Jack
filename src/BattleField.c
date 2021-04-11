@@ -49,7 +49,6 @@ void startBattle(BattleField *bf) {
   printWinner(atacker);
 }
 
-
 // swaps positions of atacker and enemy
 static void swapPositions (Player *atacker, Player *enemy){
     Player temp = *atacker;
