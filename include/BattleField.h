@@ -5,7 +5,6 @@
 #include "DesertEagle.h"
 #include "Glock.h"
 
-
 typedef struct {
   Player players[PLAYERS_COUNT];
 } BattleField;
