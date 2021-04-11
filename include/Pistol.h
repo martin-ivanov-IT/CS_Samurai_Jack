@@ -16,5 +16,5 @@ typedef struct Pistol{
   bool (*fire)(struct Pistol* me, PlayerVitalData* playerData);
  }Pistol;
 
-void initPistol(Pistol* const pistol, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo);
+void initPistol(Pistol* pistol, enum PistolType pistolType, int damagePerRound, int clipSize, int inputAmmo);
 #endif /* PISTOL_H_ */
