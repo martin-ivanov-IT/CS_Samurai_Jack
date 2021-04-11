@@ -29,6 +29,7 @@ void buyPistols(BattleField *bf) {
       initDesertEagle(&pistol, pistolId,pistolDamagePerRound, pistolClipSize, pistolRemainingAmmo);
     }
     bf->players[i].takeGun(&bf->players[i], &pistol);
+    bf->players[i].pistol = pistol;
   }
 }
 
@@ -37,7 +38,7 @@ void startBattle(BattleField *bf) {
   Player* enemy = &bf->players[1];
   
   //while loop while both players are still alive
-  while(atacker->playerData.isAlive && enemy->playerData.isAlive){
+  while(atacker->playerData.isAlive && atacker->playerData.isAlive){
     printf("PlayerID %d turn:\n",atacker->playerId);
 
     //rerurns true if enemy palyer is killed by atacker pistol fire atack 
