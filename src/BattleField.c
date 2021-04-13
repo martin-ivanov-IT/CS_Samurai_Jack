@@ -33,7 +33,6 @@ void buyPistols(BattleField *bf) {
       initDesertEagle(&pistol, pistolId,pistolDamagePerRound, pistolClipSize, pistolRemainingAmmo);
     }
     bf->players[i].takeGun(&bf->players[i], &pistol);
-    bf->players[i].pistol = pistol;
   }
 }
 
