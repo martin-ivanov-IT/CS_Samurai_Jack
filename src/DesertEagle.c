@@ -31,10 +31,6 @@ static void hurtEnemy(PlayerVitalData* enemy, DesertEagle* desertEagle){
     if(enemy->hasArmor(enemy)){
         enemy->armor -= desertEagle->damagePerRound*DESERTEAGLE_ARMOR_DAMAGE_RATE;  
         enemy->health -= desertEagle->damagePerRound*DESERTEAGLE_HEALTH_DAMAGE_RATE;
-        if(enemy->armor < 0){
-            enemy->health += enemy->armor;
-            enemy->armor = 0;
-        }
     }
     else{
         enemy->health -= desertEagle->damagePerRound;
