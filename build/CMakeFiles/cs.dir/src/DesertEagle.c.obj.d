@@ -1,8 +1,8 @@
 CMakeFiles/cs.dir/src/DesertEagle.c.obj: \
- H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\DesertEagle.c \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/DesertEagle.h \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Pistol.h \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Defines.h \
+ H:\third_talk\CS_Samurai_Jack\src\DesertEagle.c \
+ H:/third_talk/CS_Samurai_Jack/include/DesertEagle.h \
+ H:/third_talk/CS_Samurai_Jack/include/Pistol.h \
+ H:/third_talk/CS_Samurai_Jack/include/Defines.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/stdio.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/crtdefs.h \

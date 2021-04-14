@@ -1,4 +1,4 @@
-# Install script for directory: H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack
+# Install script for directory: H:/third_talk/CS_Samurai_Jack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "H:/third_talk/CS_Samurai_Jack/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

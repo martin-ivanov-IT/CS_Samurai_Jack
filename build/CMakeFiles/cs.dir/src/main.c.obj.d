@@ -1,5 +1,5 @@
 CMakeFiles/cs.dir/src/main.c.obj: \
- H:\Second_Talk\CS_Func_Pointer\CS_Samurai_Jack\src\main.c \
+ H:\third_talk\CS_Samurai_Jack\src\main.c \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/stdlib.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/crtdefs.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/_mingw.h \
@@ -19,10 +19,10 @@ CMakeFiles/cs.dir/src/main.c.obj: \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/swprintf.inl \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/BattleField.h \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Player.h \
+ H:/third_talk/CS_Samurai_Jack/include/BattleField.h \
+ H:/third_talk/CS_Samurai_Jack/include/Player.h \
  C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdbool.h \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Defines.h \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Pistol.h \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/DesertEagle.h \
- H:/Second_Talk/CS_Func_Pointer/CS_Samurai_Jack/include/Glock.h
+ H:/third_talk/CS_Samurai_Jack/include/Defines.h \
+ H:/third_talk/CS_Samurai_Jack/include/Pistol.h \
+ H:/third_talk/CS_Samurai_Jack/include/DesertEagle.h \
+ H:/third_talk/CS_Samurai_Jack/include/Glock.h

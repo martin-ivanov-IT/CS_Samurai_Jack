@@ -14,10 +14,6 @@ typedef struct Player {
   void (* takeGun)(struct Player* player, Pistol* pistol);
 } Player;
 
-struct PlayerVtable{
-  void (* takeGun)(Player* player, Pistol* pistol);
-};
-
 void initPlayer(Player* player, int health, int armor, int playerId);
 
 
